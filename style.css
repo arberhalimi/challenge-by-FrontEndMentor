@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+
+
+
+.columns {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 96%;
+    margin-left: 3%;
+}
+
+.columns .c-one {
+    width: 33%;
+    height: 80vh;
+    background-color: #e28525;
+    border-radius: 20px 0 0 20px;
+}
+
+.c-one svg {
+    margin: 40px;
+}
+
+
+.c-one h1  {
+    font-size: 46px;
+    color: white;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: 30px;
+
+}
+
+.c-one p {
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.c-one button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: #e28525;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+.c-one button:active{
+    background-color: #e28525;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+.columns .c-two {
+    width: 33%;
+    height: 80vh;
+    background-color:#016972;
+}
+
+.c-two svg {
+    margin: 40px;
+}
+
+
+.c-two h1  {
+    font-size: 46px;
+    color: white;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: 30px;
+
+}
+
+.c-two p {
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.c-two button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: #016972;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+.c-two button:active{
+    background-color: #016972;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+.columns .c-three {
+    width: 33%;
+    height: 80vh;
+    background-color:#00403f;
+    border-radius: 0 20px 20px 0;
+}
+
+.c-three svg {
+    margin: 40px;
+}
+
+
+.c-three h1  {
+    font-size: 46px;
+    color: white;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-left: 30px;
+
+}
+
+.c-three p {
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.c-three button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: #00403f;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+.c-three button:active{
+    background-color: #00403f;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    .columns {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 96%;
+    }
+
+    .columns .c-one {
+        width: 96%;
+        height: 80vh;
+        margin-left: 3%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .columns .c-two {
+        width: 96%;
+        height: 80vh;
+        margin-left: 3%;
+    }
+
+    .columns .c-three {
+        width: 96%;
+        height: 80vh;
+        margin-left: 3%;
+        border-radius: 0 0 10px 10px;
+    }
+}
